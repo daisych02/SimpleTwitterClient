@@ -28,6 +28,8 @@
         android:id="@+id/tvBody"
         android:maxLines="2"
         android:textSize="12sp"
+        android:autoLink="all"
+        android:linksClickable="true"
         android:layout_alignBottom="@+id/ivProfileImage"
         android:layout_toRightOf="@+id/ivProfileImage"
         android:layout_toEndOf="@+id/ivProfileImage" />

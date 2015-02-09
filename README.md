@@ -19,5 +19,5 @@ REQUIRED : User can compose a new tweet
 	Optional: User can see a counter with total number of characters left for tweet
 
 
-
+![alt tag](https://raw.githubusercontent.com/daisych02/SimpleTwitterClient/master/simpleTweet.gif)
 

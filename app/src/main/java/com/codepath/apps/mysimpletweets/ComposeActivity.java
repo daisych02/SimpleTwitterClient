@@ -62,7 +62,7 @@ public class ComposeActivity extends ActionBarActivity {
             @Override
             public void onTextChanged(CharSequence s, int start,
                                       int before, int count) {
-                int left = 200 - s.length();
+                int left = 140 - s.length();
                 tvLeft.setText(left + " characters left");
             }
         });

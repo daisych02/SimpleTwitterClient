@@ -36,7 +36,8 @@
         android:layout_alignParentStart="true"
         android:layout_marginTop="30dp"
         android:background="#FFFFFF"
-        android:layout_below="@+id/btnCancel">
+        android:layout_below="@+id/btnCancel"
+        android:id="@+id/innerLayout">
 
         <ImageView
             android:layout_width="60dp"
@@ -71,7 +72,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="200 characters left"
+            android:text="140 characters left"
             android:id="@+id/tvLeft"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"

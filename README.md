@@ -21,3 +21,27 @@ REQUIRED : User can compose a new tweet
 
 ![alt tag](https://raw.githubusercontent.com/daisych02/SimpleTwitterClient/master/simpleTweet.gif)
 
+
+This is extension of Simple Twitter Client intended for Android class project 4.
+
+REQUIRED : User can switch between Timeline and Mention views using tabs. 
+	
+	User can view their home timeline tweets.
+	User can view the recent mentions of their username.
+
+REQUIRED : User can navigate to view their own profile
+	
+   	 User can see picture, tagline, # of followers, # of following, and tweets on their profile.
+
+REQUIRED : User can click on the profile image in any tweet to see another user's profile. 
+
+	User can see picture, tagline, # of followers, # of following, and tweets of clicked user.
+	Profile view should include that user's timeline
+	
+REQUIRED : User can infinitely paginate any of these timelines (home, mentions, user) by scrolling to the bottom
+
+![alt tag](https://github.com/daisych02/SimpleTwitterClient/blob/master/simpleTweet2.gif?raw=true)
+
+
+
+

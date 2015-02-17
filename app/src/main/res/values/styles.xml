@@ -6,11 +6,16 @@
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
         -->
+        <item name="android:background">#58ACFA</item>
     </style>
 
     <!-- Application theme. -->
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="MyTwitterTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:background">#58ACFA</item>
     </style>
 
 </resources>

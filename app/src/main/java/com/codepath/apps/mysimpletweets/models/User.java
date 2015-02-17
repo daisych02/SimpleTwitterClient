@@ -43,11 +43,38 @@ public class User implements Serializable {
         this.profileImageUrl = profileImageUrl;
     }
 
+    public int getFollowing() {
+        return following;
+    }
+
+    public void setFollowing(int following) {
+        this.following = following;
+    }
+
+    public int getFollowers() {
+        return followers;
+    }
+
+    public void setFollowers(int followers) {
+        this.followers = followers;
+    }
+
     private String name;
     private long uid;
     private String screenName;
     private String profileImageUrl;
 
+    public String getTagline() {
+        return tagline;
+    }
+
+    public void setTagline(String tagline) {
+        this.tagline = tagline;
+    }
+
+    private String tagline;
+    private int following;
+    private int followers;
 
     public static User fromJson (JSONObject json) {
         User user = new User();
@@ -56,6 +83,9 @@ public class User implements Serializable {
             user.uid = json.getLong("id");
             user.screenName = json.getString("screen_name");
             user.profileImageUrl = json.getString("profile_image_url");
+            user.following = json.getInt("friends_count");
+            user.followers = json.getInt("followers_count");
+            user.tagline = json.getString("description");
         } catch (JSONException e) {
             e.printStackTrace();
         }
